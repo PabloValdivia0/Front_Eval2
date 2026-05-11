@@ -129,3 +129,5 @@ response = requests.post(f'{BACKEND_URL}/api/usuarios', json=datos_usuario)
 - Asegúrate de que las URLs en las variables de entorno sean correctas
 - En producción, establece `DEBUG=False` y usa una `SECRET_KEY` segura
 - La aplicación está diseñada para funcionar con el backend API de este proyecto
+
+Pipeline CI/CD probado - [sanockly]
